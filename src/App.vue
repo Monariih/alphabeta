@@ -2,7 +2,7 @@
   <v-app>
     <AppHeader />
     <v-main>
-      <HelloWorld />
+      <HomePage />
     </v-main>
 
     <AppFooter />
