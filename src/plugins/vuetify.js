@@ -14,7 +14,8 @@ import { createVuetify } from 'vuetify'
 const customColors = {
   dark: true,
   colors: {
-    alphabeta_red: '#FF0000'
+    'alphabeta-red': '#ed3237',
+    'alphabeta-grey': '#373435',
   },
 }
 

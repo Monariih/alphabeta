@@ -1,5 +1,5 @@
 <template>
-	<v-app-bar class="bg-alphabeta_red">
+	<v-app-bar class="bg-alphabeta-red">
 		<v-toolbar-title>My App</v-toolbar-title>
 		<v-spacer />
 		<v-btn class="bg-something">Home</v-btn>
