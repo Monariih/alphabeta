@@ -4,7 +4,7 @@
 			<div class="text-h4 text-alphabeta-grey mx-4">
 				ALPHABETA
 			</div>
-			<v-col class="text-start ml-0">
+			<v-divider class="border-opacity-100" color="alphabeta-grey" vertical></v-divider>
 			<v-div class="text-alphabeta-grey">
 				<v-btn>Home</v-btn>
 				<v-btn>Quem somos</v-btn>
