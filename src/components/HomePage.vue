@@ -43,4 +43,30 @@
 			</v-container>
 		</div>
 	</div>
+	<div class="mx-auto w-xs-100 w-sm-75 w-xl-50 mb-6 justify-center">
+		<v-container>
+			<v-row>
+				<v-col>
+					<v-card class="px-lg-4">
+						<v-card-title>
+							Lorem
+							<v-card-subtitle>
+								Ipsum
+							</v-card-subtitle>
+						</v-card-title>
+					</v-card>
+				</v-col>
+				<v-col>
+					<v-card class="px-lg-4">
+						<v-card-title>
+							Lorem
+							<v-card-subtitle>
+								Ipsum
+							</v-card-subtitle>
+						</v-card-title>
+					</v-card>
+				</v-col>
+			</v-row>
+		</v-container>
+	</div>
 </template>
