@@ -6,13 +6,20 @@
 			></v-parallax>
 		</div>
 	
-		<div class="mt-n16 position-relative mx-16">
-			<v-sheet class="mx-16 pa-10 rounded-lg elevation-2">
-				<div class="text-h5 text-center">ALPHABETA</div>
-				<div class="text-center mb-6 text-caption">SOLUÇÕES EM SEGURANÇA PERSONALIZADA</div>
-				<v-divider></v-divider>
-				<div class="text-justify text-body-2 mt-6">
-					A ALPHABETA oferece mão de obra especializada e treinada para atender todas as demandas
+		<div class="mx-auto w-xs-100 w-sm-75 w-xl-50  justify-center">
+			<v-card class="mx-lg-16 px-lg-16">
+				<div class="text-center">
+					<v-card-title>
+						ALPHABETA
+						<v-card-subtitle>
+							SOLUÇÕES EM SEGURANÇA ESPECIALIZADA
+						</v-card-subtitle>
+					</v-card-title>
+				</div>
+				<v-divider class="mx-16"></v-divider>
+				<v-card-text>
+					<div class="text-justify text-body-1">
+						A ALPHABETA oferece mão de obra especializada e treinada para atender todas as demandas
 					em serviços terceirizados, tanto para condomínios quanto para empresas. Com mais de 10
 					anos de experiência, entendemos profundamente a importância da transformação digital e
 					das novas dinâmicas nas relações comerciais e sociais no mundo dos negócios.
@@ -24,8 +31,15 @@
 					eficaz dos recursos, sempre visando a satisfação do cliente e a melhoria contínua. Com a ALPHABETA,
 					você pode contar com um parceiro que entende suas necessidades e está preparado para enfrentá-las
 					com competência e dedicação.
-				</div>
-			</v-sheet>
+					</div>
+				</v-card-text>
+			</v-card>
+		</div>
+
+		<div class="">
+			<v-parallax
+				src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg"
+			></v-parallax>
 		</div>
 	</div>
 </template>
