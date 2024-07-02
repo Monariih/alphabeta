@@ -1,8 +1,10 @@
 <template>
 	<div>
-		<div>	<v-img
-			src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg"
-		></v-img></div>
+		<div>
+			<v-parallax
+				src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg"
+			></v-parallax>
+		</div>
 	
 		<div class="mt-n8 position-relative mx-16 d-sm-mx-8">
 			<v-sheet class="mx-16">
