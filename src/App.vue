@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <AppHeader />
-    <v-main>
+    <v-main class="bg-alphabeta-background">
       <HomePage />
     </v-main>
 
