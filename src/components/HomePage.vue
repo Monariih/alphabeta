@@ -6,9 +6,11 @@
 			></v-parallax>
 		</div>
 	
-		<div class="mt-n8 position-relative mx-16 d-sm-mx-8">
-			<v-sheet class="mx-16">
-				<div class="text-h5">ALPHABETA - SOLUÇÕES EM SEGURANÇA</div>
+		<div class="mt-n16 position-relative mx-16">
+			<v-sheet class="mx-16 pa-10 rounded-lg elevation-2">
+				<div class="text-h5 text-center">ALPHABETA</div>
+				<div class="text-center mb-6 text-caption">SOLUÇÕES EM SEGURANÇA PERSONALIZADA</div>
+				<v-divider></v-divider>
 				<div class="text-justify text-body-2 mt-6">
 					A ALPHABETA oferece mão de obra especializada e treinada para atender todas as demandas
 					em serviços terceirizados, tanto para condomínios quanto para empresas. Com mais de 10
