@@ -2,7 +2,8 @@
 	<div>
 		<div>
 			<v-parallax
-				src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg"
+				src="../assets/alphabeta-logos/logo img grande_page-0001.jpg"
+				height="850"
 			></v-parallax>
 		</div>
 	
