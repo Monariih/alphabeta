@@ -5,13 +5,13 @@
 				ALPHABETA
 			</div>
 			<v-divider class="border-opacity-100" color="alphabeta-grey" vertical></v-divider>
-			<v-div class="text-alphabeta-grey">
+			<div class="text-alphabeta-grey">
 				<v-btn>Home</v-btn>
 				<v-btn>Quem somos</v-btn>
 				<v-btn>Clientes</v-btn>
 				<v-btn>Serviços</v-btn>
 				<v-btn>Fale Conosco</v-btn>
-			</v-div>
+			</div>
 		</div>
 	</v-app-bar>
 </template>
