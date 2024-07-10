@@ -2,7 +2,7 @@
   <v-app>
     <AppHeader />
     <v-main class="bg-alphabeta-background">
-      <HomePage />
+      <router-view />
     </v-main>
     <AppFooter />
   </v-app>
