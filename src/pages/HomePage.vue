@@ -44,7 +44,7 @@
 						:cols="cols[0]"
 					>
 						<v-img
-							:lazy-src="imageLinks[n-1]"
+							:lazy-src="imageLinks[n-1].img"
 							:src="imageLinks[n-1].img"
 							aspect-ratio="1"
 							class="bg-grey-lighten-2"
