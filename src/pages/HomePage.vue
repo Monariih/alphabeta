@@ -8,7 +8,7 @@
 		</div>
 	
 		<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative mt-n16">
-			<v-sheet class="pa-4 pa-sm-6 pa-md-8 pa-lg-12 rounded">
+			<v-sheet class="pa-4 pa-sm-6 pa-md-8 pa-lg-12">
 				<div class="text-h4 text-center">
 					ALPHABETA
 					<div class="text-caption mt-n2">
