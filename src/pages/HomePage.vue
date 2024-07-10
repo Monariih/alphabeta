@@ -75,10 +75,22 @@ export default {
 	setup() {
 		return {
 			imageLinks: [
-				"https://seguranca.grupolasetronik.com.br/imagens/onde-faz-instalacao-de-camera-de-seguranca.jpg",
-				"https://www.generall.com.br/wp-content/uploads/elementor/thumbs/O-que-e-uma-central-de-monitoramento-px2roww7mssqn9nzkgkqbx4371itvnkvuj5r594ys0.jpg",
-				"https://ascenty.com/wp-content/uploads/2021/07/Seguranca-de-dados-1920x1000-c-default.jpg",
-				"https://www.nuvent.com.br/wp-content/uploads/2020/04/segurancaparaeventos.jpeg",
+				{
+					img: "https://seguranca.grupolasetronik.com.br/imagens/onde-faz-instalacao-de-camera-de-seguranca.jpg",
+					text: "Câmeras de segurança"
+				},
+				{
+					img: "https://www.generall.com.br/wp-content/uploads/elementor/thumbs/O-que-e-uma-central-de-monitoramento-px2roww7mssqn9nzkgkqbx4371itvnkvuj5r594ys0.jpg",
+					text: "Central de monitoramento"
+				},
+				{
+					img: "https://ascenty.com/wp-content/uploads/2021/07/Seguranca-de-dados-1920x1000-c-default.jpg",
+					text: "Segurança de dados"
+				},
+				{
+					img: "https://www.nuvent.com.br/wp-content/uploads/2020/04/segurancaparaeventos.jpeg",
+					text: "Segurança para eventos"
+				},
 			]
 		}
 	},
