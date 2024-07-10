@@ -31,42 +31,41 @@
 					com competência e dedicação.
 				</div>
 			</v-sheet>
-									Além disso, utilizamos tecnologias de ponta para otimizar processos e garantir uma gestão
-									eficaz dos recursos, sempre visando a satisfação do cliente e a melhoria contínua. Com a ALPHABETA,
-									você pode contar com um parceiro que entende suas necessidades e está preparado para enfrentá-las
-									com competência e dedicação.
-								</div>
-							</v-card-text>
-						</v-card>
+		</div>
+	</div>
+	<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative my-6">
+		<v-sheet class="rounded">
+			<v-container>
+				<v-row>
+					<v-col
+						v-for="n in 4"
+						:key="n"
+						class="d-flex child-flex"
+						:cols="cols[0]"
+					>
+						<v-img
+							:lazy-src="imageLinks[n-1]"
+							:src="imageLinks[n-1]"
+							aspect-ratio="1"
+							class="bg-grey-lighten-2"
+							cover
+						>
+							<template v-slot:placeholder>
+								<v-row
+									align="center"
+									class="fill-height ma-0"
+									justify="center"
+								>
+									<v-progress-circular
+										color="grey-lighten-5"
+										indeterminate
+									></v-progress-circular>
+								</v-row>
+							</template>
+						</v-img>
 					</v-col>
 				</v-row>
 			</v-container>
-		</div>
-	</div>
-	<div class="mx-auto w-xs-100 w-sm-75 w-xl-50 mb-6 justify-center">
-		<v-container>
-			<v-row>
-				<v-col>
-					<v-card class="px-lg-4">
-						<v-card-title>
-							Lorem
-							<v-card-subtitle>
-								Ipsum
-							</v-card-subtitle>
-						</v-card-title>
-					</v-card>
-				</v-col>
-				<v-col>
-					<v-card class="px-lg-4">
-						<v-card-title>
-							Lorem
-							<v-card-subtitle>
-								Ipsum
-							</v-card-subtitle>
-						</v-card-title>
-					</v-card>
-				</v-col>
-			</v-row>
-		</v-container>
+		</v-sheet>
 	</div>
 </template>
