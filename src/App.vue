@@ -4,11 +4,9 @@
     <v-main class="bg-alphabeta-background">
       <HomePage />
     </v-main>
-
     <AppFooter />
   </v-app>
 </template>
 
 <script setup>
-import HomePage from './pages/HomePage.vue'
 </script>
