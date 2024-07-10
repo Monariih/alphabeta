@@ -62,6 +62,11 @@
 									></v-progress-circular>
 								</v-row>
 							</template>
+							<v-sheet class="position-absolute rounded-e-lg mt-16 pl-6 pr-2">
+								<div class="text-h6 text-center">
+									{{ imageLinks[n-1].text }}
+								</div>
+							</v-sheet>
 						</v-img>
 					</v-col>
 				</v-row>
