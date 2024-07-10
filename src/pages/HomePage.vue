@@ -2,7 +2,7 @@
 	<div>
 		<div>
 			<v-parallax
-				src="../assets/alphabeta-logos/logo img grande_page-0001.jpg"
+				src="../assets/alphabeta-logos/logo-background.jpg"
 				height="850"
 			></v-parallax>
 		</div>
