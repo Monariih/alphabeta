@@ -34,13 +34,13 @@
 		</div>
 	</div>
 	<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative my-6">
-		<v-sheet class="rounded">
+		<v-sheet>
 			<v-container>
-				<v-row>
+				<v-row no-gutters>
 					<v-col
 						v-for="n in 4"
 						:key="n"
-						class="d-flex child-flex"
+						class="d-flex child-flex pa-1"
 						:cols="cols[0]"
 					>
 						<v-img
