@@ -11,11 +11,11 @@
 			</div>
 			<v-divider class="border-opacity-100" color="alphabeta-grey" vertical></v-divider>
 			<div class="text-alphabeta-grey">
-				<v-btn>Home</v-btn>
-				<v-btn>Quem somos</v-btn>
-				<v-btn>Clientes</v-btn>
-				<v-btn>Serviços</v-btn>
-				<v-btn>Fale Conosco</v-btn>
+				<v-btn to="/">Home</v-btn>
+				<v-btn to="/quem-somos">Quem somos</v-btn>
+				<v-btn to="/clientes">Clientes</v-btn>
+				<v-btn to="/servicos">Serviços</v-btn>
+				<v-btn to="/fale-conosco">Fale Conosco</v-btn>
 			</div>
 		</div>
 	</v-app-bar>
