@@ -15,8 +15,8 @@ export default {
   },
   computed: {
     screenSize() {
-      const { sm } = this.$vuetify.display
-      return sm ? true : false
+      const { sm, md, lg, xl, xxl } = this.$vuetify.display
+      return sm ? true : md ? true : lg ? true : xl ? true : xxl ? true : false
     },
   }
 }
