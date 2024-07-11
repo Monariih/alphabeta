@@ -4,8 +4,8 @@
     <AppHeaderXs v-if="!screenSize" />
     <v-main class="bg-alphabeta-background">
       <router-view />
-    </v-main>
     <AppFooter />
+    </v-main>
   </v-app>
 </template>
 
