@@ -22,15 +22,24 @@
       </v-col>
       <v-col>
       <a
-        class="text-decoration-none on-surface"
-        href="https://vuetifyjs.com/about/licensing/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        MIT License
-      </a>
-    </div>
-  </v-footer>
+      </v-col>
+      <v-col class="text-right">
+        <v-row
+          v-for="item in contactForms"
+          :key="item.title"
+          no-gutters
+        >
+          <v-col>
+            <v-btn
+              :append-icon="item.icon"
+              variant="plain"
+              size="large"
+              :href="item.to"
+              target="_blank"
+            >{{ item.title }}</v-btn>
+          </v-col>
+        </v-row>
+      </v-col>
 </template>
 
 <script>
