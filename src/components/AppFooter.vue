@@ -1,8 +1,8 @@
 <template>
-  <v-footer height="40" app>
-    <a
-      v-for="item in items"
-      :key="item.title"
+	<v-footer
+		class="bg-grey-darken-4"
+	>
+    <v-row>
       <v-col>
         <v-row
           v-for="item in socialNetwork"
@@ -21,7 +21,7 @@
         </v-row>
       </v-col>
       <v-col>
-      <a
+        
       </v-col>
       <v-col class="text-right">
         <v-row
@@ -40,6 +40,8 @@
           </v-col>
         </v-row>
       </v-col>
+    </v-row>
+	</v-footer>
 </template>
 
 <script>
