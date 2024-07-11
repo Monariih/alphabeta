@@ -3,24 +3,24 @@
     <a
       v-for="item in items"
       :key="item.title"
-      :href="item.href"
-      :title="item.title"
-      class="d-inline-block mx-2 social-link"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      <v-icon
-        :icon="item.icon"
-        :size="item.icon === '$vuetify' ? 24 : 16"
-      />
-    </a>
-
-    <div
-      class="text-caption text-disabled"
-      style="position: absolute; right: 16px;"
-    >
-      &copy; 2016-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">Vuetify, LLC</span>
-      —
+      <v-col>
+        <v-row
+          v-for="item in socialNetwork"
+          :key="item.title"
+          no-gutters
+        >
+          <v-col>
+            <v-btn
+              :prepend-icon="item.icon"
+              variant="plain"
+              size="large"
+              :href="item.to"
+              target="_blank"
+            >{{ item.title }}</v-btn>
+          </v-col>
+        </v-row>
+      </v-col>
+      <v-col>
       <a
         class="text-decoration-none on-surface"
         href="https://vuetifyjs.com/about/licensing/"
