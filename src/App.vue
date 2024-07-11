@@ -8,5 +8,15 @@
   </v-app>
 </template>
 
-<script setup>
+<script>
+export default {
+  setup() {
+  },
+  computed: {
+    screenSize() {
+      const { sm } = this.$vuetify.display
+      return sm ? true : false
+    },
+  }
+}
 </script>
