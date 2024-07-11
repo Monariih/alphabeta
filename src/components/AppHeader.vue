@@ -1,5 +1,5 @@
 <template>
-	<v-app-bar class="bg-alphabeta-red ">
+	<v-app-bar scroll-behavior="hide" class="bg-alphabeta-red">
 		<div class="d-flex align-center mx-auto">
 			<div class="text-h4 text-alphabeta-grey mx-4">
 				<router-link to="/">
