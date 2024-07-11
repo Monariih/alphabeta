@@ -19,8 +19,19 @@
 		>
 			<v-list
 				class="bg-alphabeta-red"
-				:items="items"
-			></v-list>
+			>
+				<v-list-item
+					v-for="item in items"
+					:key="item.title"
+					:to="item.to"
+					link
+				>
+					<v-list-item-title>{{ item.title }}</v-list-item-title>
+					<template v-slot:append>
+          <v-icon :icon="item.icon"></v-icon>
+        </template>
+				</v-list-item>
+			</v-list>
 		</v-navigation-drawer>
 </template>
 
