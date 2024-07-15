@@ -9,7 +9,7 @@
 
 		<div>
 			<v-carousel
-				interval="3000"
+				interval="2000"
 				cycle
 				height=""
 				hide-delimiters
