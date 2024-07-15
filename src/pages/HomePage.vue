@@ -91,7 +91,9 @@
 				v-if="cols == 12"
 				class="text-justify pa-4"	
 			>
-				{{ imageLinks[i].text }}
+				<div>
+					{{ imageLinks[i].text }}
+				</div>
 				<div class="d-flex justify-end">
 					<v-btn
 						class="mt-4"
