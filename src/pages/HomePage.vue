@@ -6,8 +6,31 @@
 				height="650"
 			></v-parallax>
 		</div>
+
+		<div>
+			<v-carousel
+				interval="3000"
+				cycle
+				height=""
+				hide-delimiters
+				:show-arrows="false"
+			>
+				<v-carousel-item
+					v-for="(item, i) in carrouselText"
+					:key="i"
+				>
+					<v-sheet
+						class="pa-2"
+					>
+						<div class="text-h5 text-uppercase text-center">
+							{{ item }}
+						</div>
+					</v-sheet>
+				</v-carousel-item>
+			</v-carousel>
+		</div>
 	
-		<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative mt-n16">
+		<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative mt-12 d-md-rouded-lg">
 			<v-sheet class="pa-4 pa-sm-6 pa-md-8 pa-lg-12">
 				<div class="text-h4 text-center">
 					ALPHABETA
