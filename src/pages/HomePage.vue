@@ -87,6 +87,30 @@
 			</div>
 		</v-sheet>
 	</div>
+
+	<div>
+		<v-row no-gutters>
+			<v-col>
+				<v-sheet class="pa-4 bg-alphabeta-background" height="400">
+					<div class="text-h4 text-center">
+						Contato
+					</div>
+					<v-divider class="my-2 mx-4"></v-divider>
+					<div class="text-justify">
+						Entre em contato conosco e solicite um orçamento sem compromisso. Estamos à disposição para
+						atender suas demandas e oferecer soluções personalizadas para o seu condomínio ou empresa.
+						Se preferir, preencha o formulário abaixo e entraremos em contato o mais breve possível.
+					</div>
+				</v-sheet>
+			</v-col>
+			<v-col>
+				<v-parallax
+					src="../assets/alphabeta-logos/alphabeta-background-horizontal.jpg"
+					height="400"
+				></v-parallax>
+			</v-col>
+		</v-row>
+	</div>
 </template>
 
 <script>
