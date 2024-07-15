@@ -8,51 +8,8 @@
 		</div>
 
 		<div>
-			<v-carousel
-				interval="2000"
-				cycle
-				height=""
-				hide-delimiters
-				:show-arrows="false"
-			>
-				<v-carousel-item
-					v-for="(item, i) in carrouselText"
-					:key="i"
-				>
-					<v-sheet
-						class="pa-2"
-					>
-						<div class="text-h5 text-center">
-							{{ item }}
-						</div>
-					</v-sheet>
-				</v-carousel-item>
-			</v-carousel>
-		</div>
-	
-		<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative mt-12 d-md-rouded-lg">
-			<v-sheet class="pa-4 pa-sm-6 pa-md-8 pa-lg-12">
-				<div class="text-h4 text-center">
-					ALPHABETA
-					<div class="text-caption mt-n2">
-						SERVÇOS ESPECIALIZADOS EM SEGURANÇA E TERCEIRAZAÇÃO
-					</div>
-				</div>
-				<v-divider class="my-2 mx-4"></v-divider>
-				<div class="text-justify">
-					A ALPHABETA oferece mão de obra especializada e treinada para atender todas as demandas
-					em serviços terceirizados, tanto para condomínios quanto para empresas. Com mais de 10
-					anos de experiência, entendemos profundamente a importância da transformação digital e
-					das novas dinâmicas nas relações comerciais e sociais no mundo dos negócios.
-					Estamos comprometidos em oferecer soluções inovadoras e eficientes para nossos clientes,
-					adaptando-nos às necessidades do mercado atual. Nossos profissionais são cuidadosamente
-					selecionados e continuamente treinados para garantir a mais alta qualidade de serviço,
-					proporcionando segurança, confiabilidade e excelência operacional.
-					Além disso, utilizamos tecnologias de ponta para otimizar processos e garantir uma gestão
-					eficaz dos recursos, sempre visando a satisfação do cliente e a melhoria contínua. Com a ALPHABETA,
-					você pode contar com um parceiro que entende suas necessidades e está preparado para enfrentá-las
-					com competência e dedicação.
-				</div>
+			<v-sheet class="text-center pa-4">
+				Soluções em segurança e terceirização para condomínios e empresas
 			</v-sheet>
 		</div>
 	</div>
@@ -135,29 +92,6 @@ export default {
 					text: "Segurança para eventos corporativos, sociais, esportivos e culturais. Equipe especializada em segurança e atendimento ao público. Controle de acesso, segurança patrimonial, brigada de incêndio e muito mais. Entre em contato conosco e solicite um orçamento."
 				},
 			],
-			carrouselText: [
-				"SÃO PAULO",
-				"RIO DE JANEIRO",
-				"BELO HORIZONTE",
-				"CURITIBA",
-				"PORTO ALEGRE",
-				"BRASÍLIA",
-				"SALVADOR",
-				"RECIFE",
-				"FORTALEZA",
-				"MANAUS",
-				"BELÉM",
-				"GOIÂNIA",
-				"CUIABÁ",
-				"CAMPO GRANDE",
-				"FLORIANÓPOLIS",
-				"VITÓRIA",
-				"SÃO LUÍS",
-				"MACEIÓ",
-				"ARACAJU",
-				"TERESINA",
-				"NATAL"
-			]
 		}
 	},
 	computed: {
