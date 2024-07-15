@@ -105,7 +105,6 @@
 					</v-btn>
 				</div>
 			</div>
-			
 		</v-row>
 	</div>
 </template>
