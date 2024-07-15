@@ -103,19 +103,23 @@ export default {
 			imageLinks: [
 				{
 					img: "https://seguranca.grupolasetronik.com.br/imagens/onde-faz-instalacao-de-camera-de-seguranca.jpg",
-					text: "Câmeras de segurança"
+					title: "Câmeras de segurança",
+					text: "Instalação e manutenção de câmeras de segurança para condomínios e empresas. Controle de acesso e monitoramento 24 horas por dia. Proteja seu patrimônio e garanta a segurança de seus colaboradores e clientes. Entre em contato conosco e solicite um orçamento."
 				},
 				{
 					img: "https://www.generall.com.br/wp-content/uploads/elementor/thumbs/O-que-e-uma-central-de-monitoramento-px2roww7mssqn9nzkgkqbx4371itvnkvuj5r594ys0.jpg",
-					text: "Central de monitoramento"
+					title: "Central de monitoramento",
+					text: "Central de monitoramento 24 horas por dia, 7 dias por semana. Equipe especializada em segurança e tecnologia para garantir a proteção de seu patrimônio. Monitore seu condomínio ou empresa de qualquer lugar do mundo. Entre em contato conosco e saiba mais."
 				},
 				{
 					img: "https://ascenty.com/wp-content/uploads/2021/07/Seguranca-de-dados-1920x1000-c-default.jpg",
-					text: "Segurança de dados"
+					title: "Segurança de dados",
+					text: "Proteja as informações de sua empresa com soluções de segurança de dados. Backup em nuvem, criptografia, firewall e muito mais. Garanta a integridade e a confidencialidade de seus dados. Entre em contato conosco e saiba mais."
 				},
 				{
 					img: "https://www.nuvent.com.br/wp-content/uploads/2020/04/segurancaparaeventos.jpeg",
-					text: "Segurança para eventos"
+					title: "Segurança para eventos",
+					text: "Segurança para eventos corporativos, sociais, esportivos e culturais. Equipe especializada em segurança e atendimento ao público. Controle de acesso, segurança patrimonial, brigada de incêndio e muito mais. Entre em contato conosco e solicite um orçamento."
 				},
 			],
 			carrouselText: [
