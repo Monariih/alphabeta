@@ -57,42 +57,54 @@
 		</div>
 	</div>
 	<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative my-12">
-		<v-sheet>
-			<v-row no-gutters>
-				<v-col
-					v-for="n in 4"
-					:key="n"
-					class="d-flex child-flex pa-1"
-					:cols="cols[0]"
-				>
-					<v-img
-						:lazy-src="imageLinks[n-1].img"
-						:src="imageLinks[n-1].img"
-						aspect-ratio="1"
-						class="bg-grey-lighten-2"
-						cover
+		<v-row
+			v-for="(item, i) in imageLinks"
+			:key="i"
+		>
+			<v-col>
+				<v-img :src="imageLinks[i].img" aspect-ratio="4/3">
+					<v-sheet class="position-absolute rounded-e-lg mt-16 pl-6 pr-2">
+						<div class="text-h5 text-center">
+							{{ imageLinks[i].title }}
+						</div>
+					</v-sheet>
+				</v-img>
+			</v-col>
+			<v-col 
+				v-if="cols == 6"
+				class="my-4"	
+			>
+				<div class="text-justify">
+					{{ imageLinks[i].text }}
+				</div>
+				<div class="d-flex justify-end">
+					<v-btn
+						color="alphabeta-red"
+						large
+						rounded
 					>
-						<template v-slot:placeholder>
-							<v-row
-								align="center"
-								class="fill-height ma-0"
-								justify="center"
-							>
-								<v-progress-circular
-									color="grey-lighten-5"
-									indeterminate
-								></v-progress-circular>
-							</v-row>
-						</template>
-						<v-sheet class="position-absolute rounded-e-lg mt-16 pl-6 pr-2">
-							<div class="text-h6 text-center">
-								{{ imageLinks[n-1].text }}
-							</div>
-						</v-sheet>
-					</v-img>
-				</v-col>
-			</v-row>
-		</v-sheet>
+						Saiba mais
+					</v-btn>
+				</div>
+			</v-col>
+			<div 
+				v-if="cols == 12"
+				class="text-justify pa-4"	
+			>
+				{{ imageLinks[i].text }}
+				<div class="d-flex justify-end">
+					<v-btn
+						class="mt-4"
+						color="alphabeta-red"
+						large
+						rounded
+					>
+						Saiba mais
+					</v-btn>
+				</div>
+			</div>
+			
+		</v-row>
 	</div>
 </template>
 
