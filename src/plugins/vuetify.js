@@ -16,7 +16,7 @@ const customColors = {
   colors: {
     'alphabeta-red': '#ed3237',
     'alphabeta-grey': '#373435',
-    'alphabeta-background': '#b7b7b9',
+    'alphabeta-background': '#e8e8e8',
   },
 }
 
