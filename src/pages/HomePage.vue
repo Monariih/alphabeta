@@ -22,7 +22,7 @@
 					<v-sheet
 						class="pa-2"
 					>
-						<div class="text-h5 text-uppercase text-center">
+						<div class="text-h5 text-center">
 							{{ item }}
 						</div>
 					</v-sheet>
