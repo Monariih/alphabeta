@@ -2,8 +2,8 @@
 	<div>
 		<div>
 			<v-parallax
-				src="../assets/alphabeta-logos/logo-background.jpg"
-				height="850"
+				src="../assets/alphabeta-logos/alphabeta-background-horizontal.jpg"
+				height="650"
 			></v-parallax>
 		</div>
 	
