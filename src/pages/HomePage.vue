@@ -34,7 +34,7 @@
 				<div class="text-justify">
 					{{ imageLinks[i].text }}
 				</div>
-				<div class="d-flex justify-end">
+				<div class="d-flex my-2 justify-end">
 					<v-btn
 						color="alphabeta-red"
 						large
