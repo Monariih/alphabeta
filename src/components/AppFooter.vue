@@ -20,8 +20,22 @@
           </v-col>
         </v-row>
       </v-col>
-      <v-col>
-        
+      <v-col class="">
+        <div class="">
+          <v-img
+            src="../assets/alphabeta-logos/logo.png"
+            max-height="80"
+          ></v-img>
+          <v-divider class="my-2"></v-divider>
+          <div class="text-center">
+            <v-icon>mdi-map-marker</v-icon>
+            Rua Orense, 41 - Sala 1214 - Diadema - SP
+            <div>
+              <v-icon>mdi-phone</v-icon>
+              (11) 5242-5488
+            </div>
+          </div>
+        </div>
       </v-col>
       <v-col class="text-right">
         <v-row
