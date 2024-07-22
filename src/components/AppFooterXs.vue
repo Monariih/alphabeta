@@ -23,7 +23,10 @@
           </div>
         </v-col>
       </v-row>
-    </div>
+
+      <v-row class="my-4 mx-1">
+        <v-divider></v-divider>
+      </v-row>
     </v-container>
   </v-footer>
 </template>
