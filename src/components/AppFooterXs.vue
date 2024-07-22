@@ -27,6 +27,43 @@
       <v-row class="my-4 mx-1">
         <v-divider></v-divider>
       </v-row>
+      
+      <v-row
+        v-for="item in socialNetwork"
+        :key="item.title"
+        no-gutters
+        class="text-center"
+      >
+        <v-col>
+          <v-btn
+            :prepend-icon="item.icon"
+            variant="plain"
+            size="large"
+            :href="item.to"
+            target="_blank"
+          >{{ item.title }}</v-btn>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col class="text-center">
+          <v-row
+            v-for="item in contactForms"
+            :key="item.title"
+            no-gutters
+          >
+            <v-col>
+              <v-btn
+                :append-icon="item.icon"
+                variant="plain"
+                size="large"
+                :href="item.to"
+                target="_blank"
+              >{{ item.title }}</v-btn>
+            </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
+       
     </v-container>
   </v-footer>
 </template>
