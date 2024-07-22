@@ -13,7 +13,7 @@
 			</v-sheet>
 		</div>
 	</div>
-	<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative my-12">
+	<div class="mx-auto w-lg-50 w-md-75 w-sm-75 my-12">
 		<v-row
 			v-for="(item, i) in imageLinks"
 			:key="i"
