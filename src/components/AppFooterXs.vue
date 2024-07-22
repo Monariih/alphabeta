@@ -2,7 +2,8 @@
   <v-footer
     class="bg-grey-darken-4"
   >
-    <div>
+    <v-container>
+
       <v-row>
         <v-col>
           <div>
@@ -23,6 +24,7 @@
         </v-col>
       </v-row>
     </div>
+    </v-container>
   </v-footer>
 </template>
 
