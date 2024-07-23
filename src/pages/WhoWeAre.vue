@@ -1,45 +1,45 @@
 <template>
-	<div>
-		<v-sheet class="mt-12">
-			<v-row no-gutters align="center" class="mx-auto w-lg-50 w-md-75 w-sm-75">
-				<v-col justify="end">
-					<div
-						v-if="cols == 6"
-						class="ml-16"
-					>
-						<v-img 
-							src="https://scontent.fgru6-1.fna.fbcdn.net/v/t1.6435-9/93136940_105502114464058_2667872051770949632_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=3iCZvxSq6tkQ7kNvgEQmPUd&_nc_ht=scontent.fgru6-1.fna&oh=00_AYCEBeuUtpXr80uCbfG8vE4w34nJ7kgxl5SK4m2FYnHBfw&oe=66C5D617"
-							height="300"
-						></v-img>
-					</div>
-					<div
-						v-if="cols == 12"
-					>
-						<v-img 
-							src="https://scontent.fgru6-1.fna.fbcdn.net/v/t1.6435-9/93136940_105502114464058_2667872051770949632_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=3iCZvxSq6tkQ7kNvgEQmPUd&_nc_ht=scontent.fgru6-1.fna&oh=00_AYCEBeuUtpXr80uCbfG8vE4w34nJ7kgxl5SK4m2FYnHBfw&oe=66C5D617"
-							height="400"
-						></v-img>
-					</div>
-				</v-col>
-				<v-col
-					v-if="cols == 6"
-				>
-					<div>
-						<p class="text-h4">
-							{{ whoWeAre.title }}
-						</p>
-						<p class="text-body-1 text-justify">
-							{{ whoWeAre.text }}
-						</p>
-					</div>
-				</v-col>
-				<div
-					v-if="cols == 12"
-					class="text-justify pa-4"
-				>
-					<p class="text-h4">
-						{{ whoWeAre.title }}
-					</p>
+	<v-row no-gutters align="center" class="my-4" v-if="cols == 6">
+		<v-col class="d-flex" cols="6" offset="3">
+			<div>
+				<v-img
+					src="../assets/alphabeta-logos/alphabeta-who-are-we.jpg"
+					width="300"
+				></v-img>
+			</div>
+			<div class="mx-2 my-8">
+				<p class="text-h4">
+					{{ whoWeAre.title }}
+				</p>
+				<p class="text-body-1 text-justify">
+					{{ whoWeAre.text }}
+				</p>
+			</div>
+		</v-col>
+	</v-row>
+	<v-row no-gutters align="center" class="my-4" v-if="cols == 6">
+		<v-col class="d-flex" cols="6" offset="3">
+			<div class="mx-2 my-8">
+				<p class="text-h4 text-right px-2">
+					{{ location.title }}
+				</p>
+				<p class="text-body-1 text-justify">
+					{{ location.text }}
+				</p>
+			</div>
+			<div>
+				<iframe 
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.720912150467!2d-46.6193651!3d-23.685936599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44f1d7daebd7%3A0x9de6668372ee3cb2!2sR.%20Orense%2C%2041%20-%20Sala%201214%20-%20Centro%2C%20Diadema%20-%20SP%2C%2009920-650!5e0!3m2!1spt-BR!2sbr!4v1721743831195!5m2!1spt-BR!2sbr" 
+					width="300" 
+					height="300" 
+					style="border:0;" 
+					allowfullscreen="true" 
+					loading="lazy" 
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</v-col>
+	</v-row>
 					<p class="text-body-1 text-justify">
 						{{ whoWeAre.text }}
 					</p>
