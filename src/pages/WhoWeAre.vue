@@ -54,7 +54,8 @@
 export default {
 	setup() {
 		return {
-			whoWeAre: {title: 'Quem somos.', text: 'A Alphabeta é uma empresa que oferece mão de obra especializada e treinada para atender todas as demandas em serviços terceirizados, voltados para condomínios e empresas. Com mais de 10 anos de experiência, a Alphabeta compreende a importância da transformação digital e das novas relações comerciais e sociais no mundo dos negócios.'}
+			whoWeAre: {title: 'Quem somos.', text: 'A Alphabeta é uma empresa que oferece mão de obra especializada e treinada para atender todas as demandas em serviços terceirizados, voltados para condomínios e empresas. Com mais de 10 anos de experiência, a Alphabeta compreende a importância da transformação digital e das novas relações comerciais e sociais no mundo dos negócios.'},
+			location: {title: 'Localização', text: 'A Alphabeta está estrategicamente localizada na Rua Orense, 41 - Sala 1214, em Diadema, São Paulo. Esta localização facilita o acesso e a prestação de serviços para uma ampla variedade de clientes, desde condomínios residenciais e comerciais até instituições de ensino, indústrias, hospitais e empresas em geral.'}
 		}
 	},
 	computed: {
