@@ -34,4 +34,11 @@ export default {
 			whoWeAre: {title: 'Quem somos.', text: 'A Alphabeta é uma empresa que oferece mão de obra especializada e treinada para atender todas as demandas em serviços terceirizados, voltados para condomínios e empresas. Com mais de 10 anos de experiência, a Alphabeta compreende a importância da transformação digital e das novas relações comerciais e sociais no mundo dos negócios.'}
 		}
 	},
+	computed: {
+			cols () {
+			const { lg, xs } = this.$vuetify.display
+			return lg ? [6] : xs ? [12] : [6]
+		},
+	}
+}
 </script>
