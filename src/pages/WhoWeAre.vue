@@ -82,7 +82,11 @@ export default {
 	setup() {
 		return {
 			whoWeAre: {title: 'Quem somos.', text: 'A Alphabeta é uma empresa que oferece mão de obra especializada e treinada para atender todas as demandas em serviços terceirizados, voltados para condomínios e empresas. Com mais de 10 anos de experiência, a Alphabeta compreende a importância da transformação digital e das novas relações comerciais e sociais no mundo dos negócios.'},
-			location: {title: 'Localização', text: 'A Alphabeta está estrategicamente localizada na Rua Orense, 41 - Sala 1214, em Diadema, São Paulo. Esta localização facilita o acesso e a prestação de serviços para uma ampla variedade de clientes, desde condomínios residenciais e comerciais até instituições de ensino, indústrias, hospitais e empresas em geral.'}
+			location: { title: 'Localização', text: 'A Alphabeta está estrategicamente localizada na Rua Orense, 41 - Sala 1214, em Diadema, São Paulo. Esta localização facilita o acesso e a prestação de serviços para uma ampla variedade de clientes, desde condomínios residenciais e comerciais até instituições de ensino, indústrias, hospitais e empresas em geral.' },
+			missionVision: [
+				{ title: 'Missão', text: 'Nossa missão é fornecer serviços terceirizados especializados que atendam às necessidades de segurança, controle de acesso e instalações elétricas de nossos clientes, promovendo a transformação digital e novas relações comerciais e sociais. Comprometemo-nos a garantir a máxima eficiência, segurança e satisfação para todos os segmentos que atendemos, desde condomínios até grandes empresas.', icon:'mdi-target' },
+				{ title: 'Visão', text: 'Ser reconhecida como a principal fornecedora de serviços terceirizados de alta qualidade no Brasil, destacando-se pela inovação, excelência operacional e parcerias duradouras. Buscamos continuamente aprimorar nossos processos e adotar tecnologias de ponta para manter nossa posição de liderança no mercado.', icon:'mdi-eye' },
+			],
 		}
 	},
 	computed: {
