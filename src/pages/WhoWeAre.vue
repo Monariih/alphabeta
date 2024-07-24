@@ -55,6 +55,14 @@
 			></v-img>
 		</v-row>
 		<v-row>
+			<v-col>
+				<div class="pa-4">
+					<p class="text-h4 text-center">{{ location.title }}</p>
+					<p class="text-body-1 text-justify">{{ location.text }}</p>
+				</div>
+			</v-col>
+		</v-row>
+		<v-row>
 			<iframe 
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.720912150467!2d-46.6193651!3d-23.685936599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44f1d7daebd7%3A0x9de6668372ee3cb2!2sR.%20Orense%2C%2041%20-%20Sala%201214%20-%20Centro%2C%20Diadema%20-%20SP%2C%2009920-650!5e0!3m2!1spt-BR!2sbr!4v1721743831195!5m2!1spt-BR!2sbr" 
 					width="400" 
