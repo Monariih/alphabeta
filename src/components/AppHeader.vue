@@ -13,7 +13,6 @@
 			<div class="text-alphabeta-grey">
 				<v-btn to="/">Home</v-btn>
 				<v-btn to="/quem-somos">Quem somos</v-btn>
-				<v-btn to="/clientes">Clientes</v-btn>
 				<v-btn to="/servicos">Serviços</v-btn>
 				<v-btn to="/fale-conosco">Fale Conosco</v-btn>
 			</div>
