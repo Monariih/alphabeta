@@ -87,6 +87,17 @@ export default {
 				{ title: 'Missão', text: 'Nossa missão é fornecer serviços terceirizados especializados que atendam às necessidades de segurança, controle de acesso e instalações elétricas de nossos clientes, promovendo a transformação digital e novas relações comerciais e sociais. Comprometemo-nos a garantir a máxima eficiência, segurança e satisfação para todos os segmentos que atendemos, desde condomínios até grandes empresas.', icon:'mdi-target' },
 				{ title: 'Visão', text: 'Ser reconhecida como a principal fornecedora de serviços terceirizados de alta qualidade no Brasil, destacando-se pela inovação, excelência operacional e parcerias duradouras. Buscamos continuamente aprimorar nossos processos e adotar tecnologias de ponta para manter nossa posição de liderança no mercado.', icon:'mdi-eye' },
 			],
+			values: [
+				{
+					title: 'Valores', text: [
+						'Qualidade: Comprometimento com a excelência em todos os serviços prestados.',
+						'Inovação: Busca constante por soluções tecnológicas avançadas para melhorar a segurança e eficiência.',
+						'Parcerias: Construção de relacionamentos de longo prazo com clientes e parceiros.',
+						'Competência: Equipe altamente treinada e capacitada para atender às diversas necessidades do mercado.',
+						'Proatividade: Antecipação das necessidades dos clientes e adoção de práticas preventivas e eficientes.'
+					]
+				}
+			]
 		}
 	},
 	computed: {
