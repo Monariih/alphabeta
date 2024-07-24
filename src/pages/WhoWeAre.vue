@@ -40,6 +40,41 @@
 			</div>
 		</v-col>
 	</v-row>
+	<v-row no-gutters align="center" class="my-12" v-if="cols == 6">
+		<v-col class="d-flex" cols="6" offset="3">
+			<v-expansion-panels variant="inset">
+				<v-expansion-panel
+					v-for="(item, i) in missionVision"
+					:key="i"
+					class="text-justify text-body-1"
+				>
+					<v-expansion-panel-title>
+						{{ item.title }}
+						<template v-slot:actions>
+							<v-icon>{{ item.icon }}</v-icon>
+						</template>
+					</v-expansion-panel-title>
+					<v-expansion-panel-text>
+						{{ item.text }}
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+				<v-expansion-panel
+					:title="values[0].title"
+					class="text-justify text-body-1"
+				>
+					<v-expansion-panel-text>
+						<li
+							v-for="(item, i) in values[0].text"
+							:key="i"
+							class="my-3"
+						>
+							{{ item }}
+						</li>
+					</v-expansion-panel-text>
+				</v-expansion-panel>
+			</v-expansion-panels>
+		</v-col>	
+	</v-row>
 	<v-container v-if="cols == 12">
 		<v-row>	
 			<v-col>
