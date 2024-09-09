@@ -94,14 +94,14 @@ export default {
 					text: "Central de monitoramento 24 horas por dia, 7 dias por semana. Equipe especializada em segurança e tecnologia para garantir a proteção de seu patrimônio. Monitore seu condomínio ou empresa de qualquer lugar do mundo. Entre em contato conosco e saiba mais."
 				},
 				{
-					img: "https://ascenty.com/wp-content/uploads/2021/07/Seguranca-de-dados-1920x1000-c-default.jpg",
-					title: "Segurança de dados",
-					text: "Proteja as informações de sua empresa com soluções de segurança de dados. Backup em nuvem, criptografia, firewall e muito mais. Garanta a integridade e a confidencialidade de seus dados. Entre em contato conosco e saiba mais."
+					img: "https://img.freepik.com/fotos-gratis/digitalizando-o-dedo-em-um-controle-de-acesso-por-impressao-digital-contaminada-por-coronavirus_53876-95279.jpg?t=st=1725918224~exp=1725921824~hmac=26aae096f9381fb0b7fa9d26f40e8a2b12dc77cc42af5c9e314a96bdbc4c71fc&w=1380",
+					title: "Portaria e controle de acesso",
+					text: "Nosso serviço de portaria é amplamente reconhecido e valorizado por clientes de condomínios e empresas. Garantimos colaboradores rigorosamente selecionados, cordiais, eficientes e atenciosos, que se adaptam perfeitamente às necessidades específicas de cada local de trabalho. Confie em nossa expertise para proporcionar segurança e tranquilidade ao seu ambiente."
 				},
 				{
-					img: "https://www.nuvent.com.br/wp-content/uploads/2020/04/segurancaparaeventos.jpeg",
-					title: "Segurança para eventos",
-					text: "Segurança para eventos corporativos, sociais, esportivos e culturais. Equipe especializada em segurança e atendimento ao público. Controle de acesso, segurança patrimonial, brigada de incêndio e muito mais. Entre em contato conosco e solicite um orçamento."
+					img: "https://img.freepik.com/fotos-gratis/materiais-de-construcao-e-rascunhos-perto-de-laptop_23-2147831947.jpg?t=st=1725918554~exp=1725922154~hmac=4b5311479be06527ff1affd1222fd5f2d6d153ca232b3128827990d9672675bf&w=1380",
+					title: "Serviços de engenharia",
+					text: "Oferecemos projeto, instalações e manutenções em serviços de engenharia elétrica, hidráulica e telefonia. Também realizamos habilitação de rede de gases para indústrias e hospitais, garantindo eficiência e segurança em todas as etapas."
 				},
 			],
 			primaryText:
