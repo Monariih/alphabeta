@@ -1,20 +1,24 @@
 <template>
 	<v-row no-gutters align="center" class="my-4" v-if="cols == 6">
 		<v-col class="d-flex" cols="6" offset="3">
-			<div>
-				<v-img
-					src="../assets/alphabeta-logos/alphabeta-who-are-we.jpg"
-					width="300"
-				></v-img>
-			</div>
-			<div class="mx-2 my-8">
-				<p class="text-h4">
-					{{ whoWeAre.title }}
-				</p>
-				<p class="text-body-1 text-justify">
-					{{ whoWeAre.text }}
-				</p>
-			</div>
+			<v-sheet class="w-100 pa-4 rounded elevation-4">
+				<v-row>
+					<v-col>
+						<v-img
+							src="../assets/alphabeta-logos/alphabeta-who-are-we.jpg"
+						></v-img>
+					</v-col>
+					<v-col>
+						<p class="text-h4 text-center">{{ whoWeAre.title }}</p>
+						<p class="text-body-1 text-justify">{{ whoWeAre.text }}</p>
+					</v-col>
+				</v-row>
+				<v-row>
+					<v-col>
+						<p class="text-body-1 text-justify">{{ whoWeAre.secondaryText }}</p>
+					</v-col>
+				</v-row>
+			</v-sheet>
 		</v-col>
 	</v-row>
 	<v-row no-gutters align="center" class="my-4" v-if="cols == 6">
