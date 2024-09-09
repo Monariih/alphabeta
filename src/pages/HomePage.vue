@@ -86,7 +86,7 @@ export default {
 				{
 					img: "https://seguranca.grupolasetronik.com.br/imagens/onde-faz-instalacao-de-camera-de-seguranca.jpg",
 					title: "Câmeras de segurança",
-					text: "Instalação e manutenção de câmeras de segurança para condomínios e empresas. Controle de acesso e monitoramento 24 horas por dia. Proteja seu patrimônio e garanta a segurança de seus colaboradores e clientes. Entre em contato conosco e solicite um orçamento."
+					text: "Oferecemos projeto, instalação e manutenção de câmeras de segurança para condomínios e empresas. Nosso serviço inclui controle de acesso e monitoramento 24 horas por dia, garantindo a máxima segurança para o seu ambiente. Entre em contato conosco e solicite um orçamento personalizado."
 				},
 				{
 					img: "https://www.generall.com.br/wp-content/uploads/elementor/thumbs/O-que-e-uma-central-de-monitoramento-px2roww7mssqn9nzkgkqbx4371itvnkvuj5r594ys0.jpg",
