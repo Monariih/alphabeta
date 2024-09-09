@@ -95,6 +95,14 @@
 		</v-row>
 		<v-row>
 			<v-col>
+				<p class="text-body-1 text-justify">{{ whoWeAre.secondaryText }}</p>
+			</v-col>
+		</v-row>
+		<v-row>
+			<v-divider class="my-2 mx-4"></v-divider>
+		</v-row>
+		<v-row>
+			<v-col>
 				<div class="pa-4">
 					<p class="text-h4 text-center">{{ location.title }}</p>
 					<p class="text-body-1 text-justify">{{ location.text }}</p>
