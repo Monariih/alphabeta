@@ -17,51 +17,45 @@
 		<v-row
 			v-for="(item, i) in imageLinks"
 			:key="i"
+			class="pa-3"
 		>
-			<v-col>
-				<v-img :src="imageLinks[i].img" aspect-ratio="4/3">
-					<v-sheet class="position-absolute rounded-e-lg mt-16 pl-6 pr-2">
-						<div class="text-h5 text-center">
-							{{ imageLinks[i].title }}
-						</div>
-					</v-sheet>
-				</v-img>
-			</v-col>
-			<v-col 
-				v-if="cols == 6"
-				class="my-4"	
-			>
-				<div class="text-justify">
-					{{ imageLinks[i].text }}
-				</div>
-				<div class="d-flex my-2 justify-end">
-					<v-btn
-						color="alphabeta-red"
-						large
-						rounded
-					>
-						Saiba mais
-					</v-btn>
-				</div>
-			</v-col>
-			<div 
-				v-if="cols == 12"
-				class="text-justify pa-4"	
-			>
-				<div>
-					{{ imageLinks[i].text }}
-				</div>
-				<div class="d-flex justify-end">
-					<v-btn
-						class="mt-4"
-						color="alphabeta-red"
-						large
-						rounded
-					>
-						Saiba mais
-					</v-btn>
-				</div>
-			</div>
+			<v-sheet class="pa-2 w-100 rounded elevation-4">
+				<v-row>
+					<v-col cols="5">
+						<v-img :src="imageLinks[i].img" aspect-ratio="1" cover>
+							<v-sheet class="position-absolute rounded-e-lg mt-16 pl-6 pr-2">
+								<div class="text-h6 text-center">
+									{{ imageLinks[i].title }}
+								</div>
+							</v-sheet>
+						</v-img>
+					</v-col>
+					<v-col>
+						<v-card
+							height="100%"
+							variant="outlined"
+						>
+							<v-card-text>
+								{{ imageLinks[i].text }}
+							</v-card-text>
+							<v-card-actions
+								class="position-absolute bottom-0"
+							>
+								<div>
+									<v-btn
+										text
+										color="primary"
+									>
+										Saiba mais
+									</v-btn>
+								</div>
+								
+							</v-card-actions>
+						</v-card>
+					</v-col>
+				</v-row>
+
+			</v-sheet>
 		</v-row>
 	</div>
 
