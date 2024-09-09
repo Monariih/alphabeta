@@ -161,7 +161,20 @@
 export default {
 	setup() {
 		return {
-			whoWeAre: {title: 'Quem somos.', text: 'A Alphabeta é uma empresa que oferece mão de obra especializada e treinada para atender todas as demandas em serviços terceirizados, voltados para condomínios e empresas. Com mais de 10 anos de experiência, a Alphabeta compreende a importância da transformação digital e das novas relações comerciais e sociais no mundo dos negócios.'},
+			whoWeAre: {
+				title: 'Quem somos.',
+				text: `
+					Fundada em 2009, nossa empresa tem se destacado no mercado de segurança patrimonial,
+				 	oferecendo soluções completas e personalizadas em portaria e controle de acesso.
+				  Com uma equipe altamente qualificada e comprometida, garantimos a segurança e a
+					tranquilidade dos nossos clientes através de tecnologias avançadas e um atendimento
+					diferenciado.`,
+				secondaryText: `
+					Nosso objetivo é protejer o que é mais valioso para você. Operamos com rigorosos
+					padrões de qualidade, sempre alinhados às necessidades específicas de cada cliente. 
+					Com mais de uma década de experiência, somos referência em segurança, construindo 
+					relações de confiança e proporcionando ambientes mais seguros para empresas e residências.`
+			},
 			location: { title: 'Localização', text: 'A Alphabeta está estrategicamente localizada na Rua Orense, 41 - Sala 1214, em Diadema, São Paulo. Esta localização facilita o acesso e a prestação de serviços para uma ampla variedade de clientes, desde condomínios residenciais e comerciais até instituições de ensino, indústrias, hospitais e empresas em geral.' },
 			missionVision: [
 				{ title: 'Missão', text: 'Nossa missão é fornecer serviços terceirizados especializados que atendam às necessidades de segurança, controle de acesso e instalações elétricas de nossos clientes, promovendo a transformação digital e novas relações comerciais e sociais. Comprometemo-nos a garantir a máxima eficiência, segurança e satisfação para todos os segmentos que atendemos, desde condomínios até grandes empresas.', icon:'mdi-target' },
