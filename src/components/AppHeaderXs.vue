@@ -43,7 +43,6 @@ export default {
 		items: [
 			{ title: 'Home', icon: 'mdi-home', to: '/' },
 			{ title: 'Quem somos', icon: 'mdi-account-group', to: '/quem-somos' },
-			{ title: 'Serviços', icon: 'mdi-cog', to: '/servicos' },
 			{ title: 'Fale Conosco', icon: 'mdi-email', to: '/fale-conosco' },
 		],
 	}),
