@@ -68,7 +68,7 @@ export default {
         { title: 'LinkedIn', icon: 'mdi-linkedin', to: 'https://www.linkedin.com' }
       ],
       contactForms: [
-        { title: 'Email', icon: 'mdi-email', to: 'mailto:' },
+        { title: 'Email', icon: 'mdi-email', to: 'mailto:alphabeta@alphabeta.com.br' },
         { title: 'Telefone', icon: 'mdi-phone', to: 'tel:' },
         { title: 'WhatsApp', icon: 'mdi-whatsapp', to: 'https://api.whatsapp.com/send?phone='}
       ]
