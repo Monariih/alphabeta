@@ -1,6 +1,6 @@
 <template>
 	<v-footer
-		class="bg-grey-darken-4"
+		class="bg-grey-darken-4 w-100"
 	>
     <v-row>
       <v-col>
