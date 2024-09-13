@@ -1,7 +1,7 @@
 <template>
 	<v-row no-gutters align="center" class="my-4" v-if="cols == 6">
 		<v-col class="d-flex" cols="6" offset="3">
-			<v-sheet class="w-100 pa-4 rounded elevation-4">
+			<v-sheet class="w-100 w-xl-50 mx-auto pa-4 rounded elevation-4">
 				<v-row>
 					<v-col>
 						<v-img
@@ -23,7 +23,7 @@
 	</v-row>
 	<v-row no-gutters align="center" class="my-4" v-if="cols == 6">
 		<v-col class="d-flex" cols="6" offset="3">
-			<v-sheet class="w-100 pa-4 rounded elevation-4">
+			<v-sheet class="w-100 w-xl-50 mx-auto pa-4 rounded elevation-4">
 				<v-row>
 					<v-col>
 						<div class="text-h4 text-right px-2">
