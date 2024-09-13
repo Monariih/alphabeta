@@ -13,9 +13,15 @@
             ></v-img>
             <v-divider class="my-2"></v-divider>
             <div class="text-center">
-              <v-icon>mdi-map-marker</v-icon>
-              Rua Orense, 41 - Sala 1214 - Diadema - SP
-              <div>
+              <div class="my-2">
+                <v-icon>mdi-email</v-icon>
+                alphabeta@alphabeta.com.br
+              </div>
+              <div class="my-2">
+                <v-icon>mdi-map-marker</v-icon>
+                Rua Orense, 41 - Sala 1214 - Diadema - SP
+              </div>
+              <div class="my-2">
                 <v-icon>mdi-phone</v-icon>
                 (11) 5242-5488
               </div>
@@ -75,7 +81,6 @@ export default {
       socialNetwork: [
         { title: 'Facebook', icon: 'mdi-facebook', to: 'https://www.facebook.com' },
         { title: 'Instagram', icon: 'mdi-instagram', to: 'https://www.instagram.com' },
-        { title: 'LinkedIn', icon: 'mdi-linkedin', to: 'https://www.linkedin.com' }
       ],
       contactForms: [
         { title: 'Email', icon: 'mdi-email', to: 'mailto:' },
