@@ -61,6 +61,54 @@
 		</v-row>
 	</div>
 
+
+	<div class="my-12" v-if="cols == 12">
+		<v-row
+			v-for="(item, i) in imageLinks"
+			:key="i"
+			class="pa-3"
+		>
+			<v-sheet class="pa-2 w-100 rounded elevation-4">
+				<v-row>
+					<v-col>
+						<v-img :src="imageLinks[i].img" cover>
+						</v-img>
+					</v-col>
+				</v-row>
+				<v-row>
+					<v-col>
+						<v-card
+							height="100%"
+							variant="outlined"
+						>
+							<v-card-title>
+								{{ imageLinks[i].title }}
+							</v-card-title>
+							<v-card-text
+								class="text-justify"
+							>
+								{{ imageLinks[i].text }}
+							</v-card-text>
+							<v-card-actions>
+								<v-btn
+									text
+									color="primary"
+									target="_blank"
+									href="https://api.whatsapp.com/send?phone=551152425488"
+									block
+								>
+									Saiba mais
+								</v-btn>
+							</v-card-actions>
+						</v-card>
+					</v-col>
+				</v-row>
+
+			</v-sheet>
+		</v-row>
+	</div>
+
+
 	<div class="mx-auto w-lg-50 w-md-75 w-sm-75 position-relative my-12 d-md-rouded-lg">
 		<v-sheet class="pa-4 pa-sm-6 pa-md-8 pa-lg-12">
 			<div class="text-h4 text-center">
