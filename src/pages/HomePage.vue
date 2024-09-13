@@ -45,6 +45,8 @@
 									<v-btn
 										text
 										color="primary"
+										target="_blank"
+										href="https://api.whatsapp.com/send?phone=551152425488"
 									>
 										Saiba mais
 									</v-btn>
